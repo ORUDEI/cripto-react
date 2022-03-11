@@ -73,7 +73,7 @@ function App() {
     <Container>
       <Img src={CryptoImg} alt="crypto images" />
       <div>
-        <Heading>Cotiza criptomonedas al instante</Heading>;
+        <Heading>Cotiza criptomonedas al instante</Heading>
         <Form setCoins={setCoins} />
         <SpinnerContainer>
         { loading && <Spinner />}
